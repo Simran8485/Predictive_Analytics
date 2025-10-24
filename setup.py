@@ -24,9 +24,9 @@ def get_requirements(file_path: str) -> List[str]:
 setup(
     name='Predictive_Analytics',
     version='0.0.1',
-    author='ANKITA',
-    author_email='toppoankita198@gmail.com',  # Optional
-    packages=find_packages(),               # Automatically find packages
-    install_requires=get_requirements("requirements.txt"),  # Load dependencies
-    python_requires=">=3.8",                # Minimum Python version
+    author='SIMRAN',
+    author_email='12a.simran35507@gmail.com',
+    packages=find_packages(),
+    install_requires=get_requirements("requirements.txt"),
+    python_requires=">=3.8",
 )
